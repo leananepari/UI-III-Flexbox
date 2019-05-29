@@ -64,6 +64,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*-----------------------------------------------------------------------------------
+  H O M E   P A G E
+-----------------------------------------------------------------------------------*/
+
 /* =============================
   HEADER
 ==============================*/
@@ -186,4 +190,67 @@ footer {
 }
 .copyright {
   text-align: center;
+}
+
+
+/* -----------------------------------------------------------------------------
+   S E R V I C E S   P A G E
+------------------------------------------------------------------------------*/
+
+/* ==============================
+ HEADER
+===============================*/
+.headerContentServicesPage {
+  border-bottom: 1px solid black;
+  padding-top: 80px;
+}
+.headerContentServicesPage img {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.titleServicesPage h1 {
+  font-size: 50px;
+  text-align: left;
+}
+.descriptionServicesPage p {
+  font-size: 18px;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+/* =================================
+ MAIN
+==================================*/
+.containerOneServicesPage {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.containerTwoServicesPage {
+  display: flex;
+  padding-bottom: 30px;
+}
+.containerThreeServicesPage {
+  display: flex;
+  padding-bottom: 30px;
+}
+.itemServicesPage {
+  padding: 20px;
+  background-color: #f7f4f4;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+.leftItem {
+  margin-right: 30px;
+}
+.itemServicesPage p {
+  padding-bottom: 10px;
+}
+.itemServicesPage button {
+  padding: 8px;
+  width: 130px;
+  background-color: #f9f9ff;
+  border: 1px solid black;
+  border-radius: 5px;
 }
