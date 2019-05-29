@@ -100,9 +100,7 @@ nav {
   color: #05549c;
   text-shadow: 5px 5px 10px rgba(0,0,0,.4);
 }
-.navBar img {
-  padding: 20px;
-}
+
 h1 {
   font-size: 60px;
   letter-spacing: 5px;
@@ -190,6 +188,7 @@ footer {
 }
 .copyright {
   text-align: center;
+  padding: 30px;
 }
 
 
@@ -253,4 +252,33 @@ footer {
   background-color: #f9f9ff;
   border: 1px solid black;
   border-radius: 5px;
+}
+
+/* =================================
+ FOOTER
+==================================*/
+.footerContainerServicesPage {
+  display: flex;
+}
+.footerItemServicesPage {
+  padding-top: 30px;
+}
+.footerItemServicesPage p {
+  padding-bottom: 20px;
+  padding-right: 60px;
+  text-align: justify;
+}
+.footerItemServicesPage ul {
+  list-style-position: inside;
+}
+.footerItemServicesPage ul li {
+  padding-bottom: 10px;
+}
+.footerItemServicesPage ul li::before {
+  color: black;
+  content: "\25CF";
+  padding-right: 10px;
+}
+.footerItemServicesPage img {
+  padding-bottom: 20px;
 }
