@@ -64,3 +64,126 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* =============================
+  HEADER
+==============================*/
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+header {
+ text-align: center;
+}
+.navBar {
+  width: 80%;
+  position: fixed;
+  top: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0ebf0;
+  height: 60px;
+}
+.navBar a{
+  text-decoration: none;
+  text-align: center;
+  color: grey;
+  padding: 25px;
+}
+.navBar a:hover {
+  color: #05549c;
+  text-shadow: 5px 5px 10px rgba(0,0,0,.4);
+}
+.navBar img {
+  padding: 20px;
+}
+h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+.headerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding-top: 40px;
+}
+.title {
+  padding: 70px;
+}
+.headerImage {
+  padding: 70px;
+  padding-right: 0px;
+}
+button {
+  width: 120px;
+  border-radius: 0px;
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: white;
+}
+
+/* ============================
+  MAIN
+============================ */
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.firstRow {
+  display: flex;
+  padding-top: 20px;
+}
+.firstRow .itemOne{
+  padding: 30px;
+  padding-left: 0px;
+}
+.firstRow .itemTwo {
+  padding: 30px;
+  padding-right: 0px;
+}
+.secondRow img{
+  padding: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+}
+.thirdRow {
+  display: flex;
+  padding-bottom: 20px;
+}
+.thirdRow .left {
+  padding: 30px;
+  padding-left: 0px;
+}
+.thirdRow .middle {
+  padding: 30px;
+}
+.thirdRow .right {
+  padding: 30px;
+  padding-right: 0px;
+}
+
+/* ============================
+ FOOTER
+============================= */
+footer {
+  border-top: 1px solid black;
+}
+.contactInfo {
+  padding: 20px;
+  padding-left: 0px;
+}
+.address p{
+  line-height: 1.5;
+}
+.contactInfo p {
+  padding-top: 10px;
+  line-height: 1.5;
+}
+.copyright {
+  text-align: center;
+}
