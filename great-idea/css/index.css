@@ -128,7 +128,7 @@ button {
 }
 
 /* ============================
-  MAIN
+  MAIN 
 ============================ */
 
 p {
@@ -252,6 +252,13 @@ footer {
   background-color: #f9f9ff;
   border: 1px solid black;
   border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,.4);
+  outline: 0;
+  cursor: pointer;
+}
+.itemServicesPage button:hover {
+  background-color:#7f8595;
+  color: white;
 }
 
 /* =================================
@@ -281,4 +288,57 @@ footer {
 }
 .footerItemServicesPage img {
   padding-bottom: 20px;
+}
+
+
+/*---------------------------------------------------------------------------------------
+  P R O D U C T   P A G E
+---------------------------------------------------------------------------------------*/
+
+/*=============================
+ HEADER
+=============================*/
+.headerContentProductPage {
+  border-bottom: 1px solid black;
+  padding-top: 80px;
+}
+.headerContentProductPage img {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.titleProductPage h1{
+  font-size: 50px;
+  text-align: left;
+}
+.descriptionProductPage p {
+  font-size: 18px;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+/*===============================
+ MAIN
+===============================*/
+.containerOneProductPage {
+  display: flex;
+  padding-top: 30px;
+  align-items: center;
+}
+.containerTwoProductPage {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.containerOneProductPage img {
+  width: 400px;
+}
+.containerTwoProductPage img {
+  width: 400px;
+}
+.itemProductPage {
+  
+}
+.leftProduct {
+  padding-right: 60px;
 }
