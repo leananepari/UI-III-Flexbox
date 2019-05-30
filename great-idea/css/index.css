@@ -220,17 +220,11 @@ footer {
 /* =================================
  MAIN
 ==================================*/
-.containerOneServicesPage {
+.containerServicesPage {
   display: flex;
   padding-top: 30px;
-  padding-bottom: 30px;
 }
-.containerTwoServicesPage {
-  display: flex;
-  padding-bottom: 30px;
-}
-.containerThreeServicesPage {
-  display: flex;
+.lastRowServicesPage {
   padding-bottom: 30px;
 }
 .itemServicesPage {

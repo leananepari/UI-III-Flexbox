@@ -220,20 +220,12 @@ footer {
 /* =================================
  MAIN
 ==================================*/
-.containerOneServicesPage {
+.containerServicesPage {
   display: flex;
   flex-direction: column;
   padding-top: 30px;
-  padding-bottom: 30px;
 }
-.containerTwoServicesPage {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 30px;
-}
-.containerThreeServicesPage {
-  display: flex;
-  flex-direction: column;
+.lastRowServicesPage {
   padding-bottom: 30px;
 }
 .itemServicesPage {
