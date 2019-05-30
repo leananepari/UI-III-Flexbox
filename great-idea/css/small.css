@@ -222,15 +222,18 @@ footer {
 ==================================*/
 .containerOneServicesPage {
   display: flex;
+  flex-direction: column;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 .containerTwoServicesPage {
   display: flex;
+  flex-direction: column;
   padding-bottom: 30px;
 }
 .containerThreeServicesPage {
   display: flex;
+  flex-direction: column;
   padding-bottom: 30px;
 }
 .itemServicesPage {
@@ -240,7 +243,7 @@ footer {
   margin: 0 auto;
 }
 .leftItem {
-  margin-right: 30px;
+  margin-bottom: 30px;
 }
 .itemServicesPage p {
   padding-bottom: 10px;
@@ -341,4 +344,3 @@ footer {
 .leftProduct {
   padding-right: 60px;
 }
-
