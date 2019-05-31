@@ -54,12 +54,12 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'NBI', 'Pro Regular',sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
+    font-family: 'NBI','Pro Bold',sans-serif;
+    letter-spacing: 0.5px;
     margin-bottom: 15px;
 }
 
@@ -365,4 +365,33 @@ footer {
 ====================================*/
 .containerVisionPage {
   display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.lastRowVision {
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+.itemVisionPage img{
+  width: 100%;
+}
+.itemVisionPage p {
+  text-align: middle;
+  color: #3d3d3d;
+  font-family: 'NBI Pro Light';
+  font-size: 18px;
+  line-height: 1.6;
+}
+.itemVisionPage h2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #000;
+}
+.imgWrap {
+  width: 250px;
+  height: 250px;
+}
+.leftItemVision {
+  padding-right: 60px;
 }
