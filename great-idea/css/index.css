@@ -87,7 +87,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e0ebf0;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
   height: 60px;
 }
 .navBar a{
@@ -97,8 +98,8 @@ nav {
   padding: 25px;
 }
 .navBar a:hover {
-  color: #05549c;
-  text-shadow: 5px 5px 10px rgba(0,0,0,.4);
+  color: #696969;
+  text-shadow: 5px 5px 10px rgba(0,0,0,.2);
 }
 
 h1 {
@@ -245,13 +246,11 @@ footer {
   background-color: #f9f9ff;
   border: 1px solid black;
   border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0,0,0,.4);
   outline: 0;
   cursor: pointer;
 }
 .itemServicesPage button:hover {
-  background-color:#7f8595;
-  color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,.2);
 }
 
 /* =================================
@@ -328,9 +327,6 @@ footer {
 }
 .containerTwoProductPage img {
   width: 400px;
-}
-.itemProductPage {
-  
 }
 .leftProduct {
   padding-right: 60px;
